@@ -22,16 +22,17 @@ export default {
   html, body {
     height: 100%;
   }
-  
+</style>
+
+<style lang="scss" scoped>
   #app {
-
-  }
-
-  #calendar-week {
-
-  }
-
-  #calendar-entry {
-
+    height: inherit;
+    background: #6e6e6e;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    -webkit-align-items: center; 
+    justify-content: center; 
+    -webkit-justify-content: center;
   }
 </style>
